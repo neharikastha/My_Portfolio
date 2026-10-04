@@ -13,11 +13,11 @@ const Home = () => {
       <div className="absolute inset-0 bg-black bg-opacity-10" />
 
       {/* Content aligned upper left */}
-      <div className="relative z-10 flex h-full items-start justify-start p-24">
+      <div className="relative z-14 flex h-full items-start justify-start p-28">
         <div className="text-black max-w-md">
-          <h2 className="text-4xl font-bold mb-4 drop-shadow-lg">Hi, I'm Neharika</h2>
+          <h1 className="text-5xl font-bold mb-4 drop-shadow-lg">Hi, I'm Neharika</h1>
           <p className="text-xl drop-shadow-md">
-            A passionate and driven learner in the field of data analytics and business intelligence.
+            A passionate and driven learner in the field of data and web development. I am an aspiring data scientist with a keen interest in leveraging data and AI to solve real-world problems.
           </p>
         </div>
       </div>

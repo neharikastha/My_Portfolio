@@ -2,20 +2,40 @@ import React from 'react';
 
 const Projects = () => {
   const projectList = [
-    {
-      title: 'Airbnb Price Predictor',
-      description: 'Built a regression model using Scikit-learn to predict Airbnb prices based on location and amenities.',
-      link: 'https://github.com/yourname/airbnb-price-predictor'
+        {
+      title: 'ETL Pipeline for Data Warehousing',
+      description: 'A data warehouse and business intelligence project built with Python and SQL.',
+      link: 'https://github.com/neharikastha/BI_DW'
     },
     {
-      title: 'COVID-19 Dashboard',
-      description: 'Designed an interactive Tableau dashboard showing real-time COVID-19 stats by country.',
-      link: 'https://public.tableau.com/'
+      title: 'Employee Attrition Prediction',
+      description: 'This project involves building a neural network model to predict employee attrition (whether an employee leaves the company) based on a variety of factors such as age, years worked, and monthly income and more.',
+      link: 'https://github.com/neharikastha/EmployeeAttritionPrediction'
     },
     {
-      title: 'Sentiment Analysis on Tweets',
-      description: 'Used NLP techniques to classify tweet sentiments using a logistic regression model.',
-      link: 'https://github.com/yourname/tweet-sentiment-nlp'
+      title: 'KhojEvent - Minor Project',
+      description: 'An event booking and ticketing platform built with React and Django',
+      link: 'https://github.com/neharikastha/KhojEvent-MinorProject'
+    },
+    {
+      title: 'Allure - A shopping platform',
+      description: 'A full-stack e-commerce platform built with React and Django.',
+      link: 'https://github.com/neharikastha/Allure'
+    },
+    {
+      title: 'Tic Tac Toe Game',
+      description: 'A classic Tic Tac Toe game built with React and JavaScript.',
+      link: 'https://github.com/neharikastha/tic-tac-toe-game'
+    },
+    {
+      title: 'ATM Simulation System',
+      description: 'A simulation of an ATM system built using Java.',
+      link: 'https://github.com/neharikastha/ATM-Simulation-System'
+    },
+    {
+      title: 'For more',
+      description: 'Visit my GitHub.',
+      link: 'https://github.com/neharikastha?tab=repositories'
     }
   ];
 
